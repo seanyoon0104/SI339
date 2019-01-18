@@ -1,0 +1,22 @@
+body{
+    background-color:#171515a6;
+    color: #00efff;
+    size: 100%;
+
+}
+
+p{
+  font-family: Arial;
+}
+
+li{
+	text-decoration: none;
+	display:inline;
+	background-color: #00efff;
+	color: #00efff;
+}
+.current{
+    color: #000000;
+    background: #0FFF00;
+    text-transform: uppercase;
+}
