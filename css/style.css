@@ -1,22 +1,27 @@
 body{
-    background-color:#171515a6;
-    color: #00efff;
+    background-color:#0025ada6;
+    color: #ffef00;
     size: 100%;
 
 }
 
 p{
-  font-family: Arial;
+  font-family: Arial, Courier;
+  line-height: 150%
 }
 
 li{
 	text-decoration: none;
 	display:inline;
-	background-color: #00efff;
+	background-color: #ffef00;
 	color: #00efff;
 }
 .current{
     color: #000000;
-    background: #0FFF00;
+    background: #ffef00;
     text-transform: uppercase;
+}
+
+.skip{
+  position: relative;
 }
