@@ -22,6 +22,12 @@ li{
     text-transform: uppercase;
 }
 
-.skip{
-  position: relative;
+a.skip{
+  position: absolute;
+  left:-200px;
+}
+
+a.skip:focus{
+  position: absolute;
+  left:200px;
 }
