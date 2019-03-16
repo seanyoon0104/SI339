@@ -1,14 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-      <p id="demo" onlick="myFunction()">Click HERE to change my textual content.</p>
-      <script>
-      function()
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JavaScript 2019</title>
+<script>
+function check(){
+  alert("Goodbye!");
 
-      </script>
-  </body>
+// 2) Update the form so that the action is updated to the person's favorite place to waste time.
+}
+</script>
+</head>
+<body>
+
+<form id = "form" onsubmit = "check()">
+<label for ="who"> What is your name?</label><input type = "text" id = "who"><br><br>
+
+What is your favorite place to waste time?<br>
+<input type = "radio" name ="interests" value = "http://www.pinterest.com" id = "pin"><label for = "pin">Pinterest</label><br>
+
+<input type = "radio" name ="interests" value = "http://www.twitter.com" id = "twit"><label for = "twit">Twitter</label><br>
+
+<input type = "radio" name ="interests" value = "http://www.instagram.com" id = "insta"><label for = "twit">Instagram</label><br>
+
+<input type = "radio" name ="interests" value = "http://www.wikipedia.com" id = "wiki"><label for = "twit">Wickipedia</label><br>
+<input type = "submit">
+</form>
+
+
+</body>
 </html>

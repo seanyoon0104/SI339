@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media1.css">
     <link rel="stylesheet" type="text/css" href="css/media2.css">
-
+    <meta name = 'viewport' content='width=device-width, initial-scale=1'>
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
     <style>
@@ -25,41 +25,39 @@
   <a href = "#maincontent" class="skip"> Skip to Content </a>
 
 	<header>
-	    <nav>
-	        <ul>
-              <li><a href = "index.html">About</a></li>
-              <li><a href = "academics.html">Academics</a></li>
-              <li><a href = "resume.html">Resume</a></li>
-              <li><a class = "current" href = "gallery.html">Gallery</a></li>
-	        </ul>
-	    </nav>
-
-	    <img src="images/profile.jpeg" id="profile" alt = "profile picture"/>
-  <br/><br/>
-  <h1>Photos</h1>
+    <div class= "topnav" id= "navbar">
+      <a href = "index.html">About</a>
+      <a href = "academics.html">Academics</a>
+      <a href = "resume.html">Resume</a>
+      <a class = "current" href = "gallery.html">Gallery</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>
+    </div>
 	</header>
 	<main id= "maincontent">
 	<p>I have attached photos of mine here.</p>
-
+</div>
 <div class=row>
-  <div class=column>
 
-	<img src="images/image1.jpg" alt="" width=300px height=300px>
-  <img src="images/image2.jpg" alt="" width=300px height=300px>
-  <img src="images/image3.jpg" alt="" width=300px height=300px>
-  <img src="images/image4.jpg" alt="" width=300px height=300px>
-</div>
   <div class=column>
-  <img src="images/image5.jpg" alt="" width=300px height=300px>
-  <img src="images/image6.jpg" alt="" width=300px height=300px>
-  <img src="images/image7.jpg" alt="" width=300px height=300px>
-  <img src="images/image8.jpg" alt="" width=300px height=300px>
+	<img src="images/image1.jpg" alt="" class="gallery-pic">
+  <img src="images/image2.jpg" alt="" class="gallery-pic">
+  <img src="images/image3.jpg" alt="" class="gallery-pic">
+  <img src="images/image4.jpg" alt="" class="gallery-pic">
 </div>
+
   <div class=column>
-  <img src="images/image9.jpg" alt="" width=300px height=300px>
-  <img src="images/image10.jpg" alt="" width=300px height=300px>
-  <img src="images/image11.jpg" alt="" width=300px height=300px>
-  <img src="images/image12.jpg" alt="" width=300px height=300px>
+  <img src="images/image5.jpg" alt="" class="gallery-pic">
+  <img src="images/image6.jpg" alt="" class="gallery-pic">
+  <img src="images/image7.jpg" alt="" class="gallery-pic">
+  <img src="images/image8.jpg" alt="" class="gallery-pic">
+</div>
+
+  <div class=column>
+  <img src="images/image9.jpg" alt="" class="gallery-pic">
+  <img src="images/image10.jpg" alt="" class="gallery-pic">
+  <img src="images/image11.jpg" alt="" class="gallery-pic">
+  <img src="images/image12.jpg" alt="" class="gallery-pic">
 </div>
   <!--<div class=column>
   <img src="images/image13.jpg" alt="" width=300px height=300px>
@@ -67,8 +65,18 @@
   <img src="images/image15.jpg" alt="" width=300px height=300px>
 </div> -->
 </div>
-</div>
+
 
 	</main>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 </body>
 </html>
