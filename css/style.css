@@ -173,25 +173,36 @@ a.skip:focus{
   50% { border-color: black; }
   }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-  }
+.callout {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  margin-left: 20px;
+  max-width: 300px;
+}
 
-.active, .accordion:hover {
+.callout-header {
+  padding: 25px 15px;
+  background: #555;
+  font-size: 30px;
+  color: white;
+}
+
+.callout-container {
+  padding: 15px;
   background-color: #ccc;
- }
+  color: black
+}
 
-.panel {
-  padding: 0 18px;
-  background-color: white;
-  display: none;
-  overflow: hidden;
- }
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+  }
