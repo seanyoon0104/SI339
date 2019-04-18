@@ -15,11 +15,14 @@ h1 {
   text-align: center;
 }
 p {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 70%
+}
+summary{
+  font-size: 30px
 }
 
 img {
@@ -77,28 +80,34 @@ a.skip:focus{
 }
 
 .topnav a {
-  float: left;
+  float: center;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 30px 16px;
-  text-decoration: none;
+  padding: 5px 5px;
+  text-decoration: inherit;
   font-size: 17px;
 }
 
+
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #D3D3D3	;
   color: black;
 }
+
 .current{
-  background-color: #000080;
-  color: white;
+  background-color: #A9A9A9 ;
+  color: black;
 }
+
 
 .topnav .icon {
   display: none;
 }
-
+#maincontent{
+  display: flex;
+  justify-content: center;
+}
 #parallax {
    background-attachment: scroll;
   }

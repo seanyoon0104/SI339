@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="images/signature_vertical_U_white.png" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/media1.css">
@@ -13,8 +13,48 @@
       body{
         font-family: 'Roboto Condensed', sans-serif;
       }
+      .parallax1 {
+          background-image: url("images/umsi.jpg");
+
+          height: 500px;
+
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 40%;
+     }
+     .parallax2 {
+         background-image: url("images/nq.jpeg");
+
+         height: 500px;
+
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: 60%;
+    }
+    .parallax3 {
+        background-image: url("images/ross.jpg");
+
+        height: 600px;
+
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 60%;
+   }
+   .parallax4 {
+       background-image: url("images/mich.jpg");
+
+       height: 500px;
+
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: 60%;
+  }
     </style>
-    <title >S.Y.</title>
+    <title >Sean.Y</title>
 
 </head>
 <body>
@@ -25,41 +65,64 @@
     <a href = "index.html">About</a>
     <a class = "current" href = "academics.html">Academics</a>
     <a href = "resume.html">Resume</a>
-    <a href = "gallery.html">Gallery</a>
+    <a href = "contact.html">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars"></i></a>
   </div>
 </header>
 
 
-<main id="maincontent">
+<main id=parallax>
 <br/><br/>
-<h1>Institution: University of Michigan School of Information</h1>
-<h1>Program: Bachelor of Science in Information</h1>
-<h1>Concentration: Information Analysis</h1>
-<br/><br/>
+<div class="parallax1"></div>
+<br></br>
+<br></br>
+<p> Institution: University of Michigan School of Information </p>
+<p>Program: Bachelor of Science in Information</p>
+<p>Concentration: Information Analysis<p>
+<br><br/>
+<br><br/>
+<div class="parallax2"></div>
+<br><br/>
+<br><br/>
 
 <h1>Completed Courses</h1>
-  <p>SI 206<br>
-    Data-Oriented Programming</p>
-  <p>SI 330<br>
-    Data Manipulation</p>
-  <p>SI 340<br>
-    Experiment Design and Analyses</p>
-  <p>SI 410<br>
-    Ethics and Information Technology</p>
-  <p>SI 430<br>
-    Information Technology and Global Society</p>
 
-<br/><br/>
+  <p><a href "https://www.si.umich.edu/programs/courses/106">SI 106</a>:
+    Programs, Information, and People</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/206">SI 206</a>:
+    Data-Oriented Programming</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/330">SI 330</a>:
+    Data Manipulation</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/340">SI 340</a>:
+    Experiment Design and Analyses</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/410">SI 410</a>:
+    Ethics and Information Technology</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/430">SI 430</a>:
+    Information Technology and Global Soceity</p>
+
+<br></br>
+<br></br>
+<div class="parallax3"></div>
+<br></br>
+<br></br>
+
 <h1>Current Courses</h1>
-<p>SI 364<br>
-Building Interactive Applications</p>
-<p>SI 339<br>
-Web Design, Development, and Accessibility</p>
-<p>SI 360<br>
-Succeeding at Failling</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/364">SI 364</a>:
+    Building Interactive Applications</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/339">SI 339</a>:
+    Web Design, Development, and Accessibility</p>
+  <p><a href "https://www.si.umich.edu/programs/courses/360">SI 360</a>:
+    Succeeding at Failing</p>
+  <p><a href "https://michiganross.umich.edu/courses/fintech-blockchain-cryptocurrencies-and-other-technology-innovations-11224">TO 428</a>:
+    Fintech Innovations</p>
+<br></br>
+<br></br>
+<div class="parallax4"></div>
+<br></br>
+<br></br>
 </main>
+
 <script>
 function myFunction() {
   var x = document.getElementById("navbar");
@@ -70,5 +133,6 @@ function myFunction() {
   }
 }
 </script>
+
 </body>
 </html>
