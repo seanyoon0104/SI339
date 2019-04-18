@@ -181,20 +181,20 @@ a.skip:focus{
   max-width: 300px;
 }
 
-.callout-header {
+.callout-title {
   padding: 25px 15px;
   background: #555;
   font-size: 30px;
   color: white;
 }
 
-.callout-container {
+.callout-content {
   padding: 15px;
   background-color: #ccc;
   color: black
 }
 
-.closebtn {
+.close {
   position: absolute;
   top: 5px;
   right: 15px;
@@ -203,6 +203,6 @@ a.skip:focus{
   cursor: pointer;
 }
 
-.closebtn:hover {
+.close:hover {
   color: lightgrey;
   }

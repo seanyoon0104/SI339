@@ -8,6 +8,7 @@ padding:15px 50px 15px;
 margin: auto;
 box-shadow:0 0 15px;
 border-radius:6px;
+background-color:#333
 }
 
 input{
@@ -24,7 +25,7 @@ border:3px solid #D3D3D3;
 padding:10px;
 margin-bottom:25px;
 margin-top:10px;
-height:100px;
+height:120px;
 resize:none
 }
 button[type="submit"]{
@@ -32,7 +33,7 @@ width:100%;
 padding:10px 45px;
 background-color:#A9A9A9;
 border:none;
-color:#fff;
+color:#333;
 font-size:18px;
 font-weight:700;
 cursor:pointer;
