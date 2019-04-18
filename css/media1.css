@@ -1,20 +1,25 @@
 @media (max-width:600px) {
 
-  h1{
+h1{
     font-size: 20px
-  }
-  p{
+}
+div{
     font-size: 1rem;
-  }
+    text-align: center;
+}
+p{
+  font-size: 1.9rem;
 
-  .responsive-image{
+}
+
+.responsive-image{
   display: none;
-  }
-  .row{
+}
+.row{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  }
+}
 }
 
 @media screen and (max-width: 600px) {
