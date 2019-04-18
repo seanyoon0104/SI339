@@ -11,8 +11,10 @@ address {
 
 
 h1 {
-  font-size: 30px;
+  font-size: 1.3rem;
   text-align: center;
+  margin: auto;
+  width: 80%
 }
 p {
   font-size: 1.7rem;
@@ -43,22 +45,6 @@ footer,
  position: absolute;
  bottom: 0;
  width: 100%
-}
-.row{
-  display:flex;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 33.33%
-  max-width: 100%;
-  height:auto;
-  padding: 0 5px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
 }
 
 a.skip{
@@ -110,4 +96,78 @@ a.skip:focus{
 }
 #parallax {
    background-attachment: scroll;
+  }
+
+.typewriter{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  animation:
+    typing 2.0s steps(40, end),
+    blink-caret 150s step-end infinite;
+  }
+
+.typewriter1{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret 150s step-end infinite;
+  }
+
+.typewriter2{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  animation:
+    typing 6.0s steps(60, end),
+    blink-caret 150s step-end infinite;
+  }
+.typewriter3{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  animation:
+    typing 9.5s steps(60, end),
+    blink-caret 150s step-end infinite;
+  }
+.typewriter4{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  animation:
+    typing 11.0s steps(60, end),
+    blink-caret 150s step-end infinite;
+  }
+.typewriter5{
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  animation:
+    typing 12.0s steps(60, end),
+    blink-caret 150s step-end infinite;
+  }
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+  }
+
+  /* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
   }
