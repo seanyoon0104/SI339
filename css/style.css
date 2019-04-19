@@ -28,17 +28,16 @@ summary{
   font-size: 30px
 }
 
-img {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-}
 
 details {
   text-align: center;
 }
 
-
+iframe{
+  width: 50%;
+  height:70%;
+  position:fixed;
+}
 footer,
 .push {
   height: 20px;
@@ -47,6 +46,8 @@ footer,
  bottom: 0;
  width: 100%
 }
+
+
 
 a.skip{
   position: absolute;
@@ -63,7 +64,8 @@ a.skip:focus{
   background-color: #333;
   top: 0;
   position: fixed;
-  width: 100%;
+  width: 7%;
+
 }
 
 .topnav a {
@@ -91,7 +93,7 @@ a.skip:focus{
 .topnav .icon {
   display: none;
 }
-#maincontent{
+#resume{
   display: flex;
   justify-content: center;
 }
