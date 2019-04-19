@@ -112,6 +112,10 @@ a.skip:focus{
     blink-caret 150s step-end infinite;
   }
 
+.typewriter h1 {
+  font-size: 2rem;
+}
+
 .typewriter1{
   overflow: hidden;
   border-right: .15em solid black;
@@ -130,7 +134,7 @@ a.skip:focus{
   margin: 0 auto;
   letter-spacing: .05em;
   animation:
-    typing 6.0s steps(60, end),
+    typing 5.0s steps(60, end),
     blink-caret 150s step-end infinite;
   }
 .typewriter3{
@@ -140,7 +144,7 @@ a.skip:focus{
   margin: 0 auto;
   letter-spacing: .05em;
   animation:
-    typing 9.5s steps(60, end),
+    typing 6.0s steps(60, end),
     blink-caret 150s step-end infinite;
   }
 .typewriter4{
@@ -150,7 +154,7 @@ a.skip:focus{
   margin: 0 auto;
   letter-spacing: .05em;
   animation:
-    typing 11.0s steps(60, end),
+    typing 7.0s steps(60, end),
     blink-caret 150s step-end infinite;
   }
 .typewriter5{
@@ -160,7 +164,7 @@ a.skip:focus{
   margin: 0 auto;
   letter-spacing: .05em;
   animation:
-    typing 12.0s steps(60, end),
+    typing 9.0s steps(60, end),
     blink-caret 150s step-end infinite;
   }
 
