@@ -108,6 +108,7 @@ a.skip:focus{
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: .05em;
+  line-height: normal;
   animation:
     typing 2.0s steps(40, end),
     blink-caret 150s step-end infinite;
